@@ -1,0 +1,3 @@
+使用说明：
+将文件里的【ping.dll文件】复制到TShock的ServerPlugins文件中后启动服务器即可生效！
+插件指令：/ping
