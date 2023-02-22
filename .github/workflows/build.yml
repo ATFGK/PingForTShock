@@ -29,7 +29,7 @@ jobs:
           dotnet publish -r win-x64 -f net6.0 -c Release --self-contained false
      - name: 打包
        run: |
-          Compress-Archive -Path ./ClassLibrary1/bin/Release/net6.0/win-x64/publish/ping.dll,说明.txt Release-win-x64.zip
+          Compress-Archive -Path ./ClassLibrary1/bin/Release/net6.0/win-x64/publish/Ping.dll,说明.txt Release-win-x64.zip
           
      
      
